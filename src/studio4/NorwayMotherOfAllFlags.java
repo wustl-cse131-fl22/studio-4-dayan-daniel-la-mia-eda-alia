@@ -23,14 +23,19 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void norway() {
-		StdDraw.setXscale(0, 22);
-		StdDraw.setYscale(0, 16);
+		StdDraw.setXscale(0, 3);
+		StdDraw.setYscale(0, 1);
 		mother();
 	}
 
 	public static void france() {
 		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(255, 0, 50);
+		StdDraw.filledRectangle(0, .75, 0, 3);
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(11, 8, 11, 1);
+		StdDraw.filledRectangle(8, 8, 1, 8);
 	}
 
 	public static void indonesia() {
